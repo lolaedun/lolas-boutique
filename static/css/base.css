@@ -5,6 +5,7 @@ html {
 body {
     background: url('/media/Lolas-Boutique-homepage.png') no-repeat center center fixed;
     background-size: cover;
+    background-position-y: 88px;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
