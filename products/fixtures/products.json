@@ -1,0 +1,142 @@
+[
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001340155",
+         "name":"Leather Notebooks, Diaries",
+         "description":"Journal Notebooks with Leather Covers. The perfect gift for many an occasion. Bring a bit of Game of Thrones magic to your life. Details include buckles, metal clasps, wrap-a-round thongs, burnt edges. Each Notebook has its own unique style and purpose. Eg the world map design for a travel journal. The books can be used as a notebooks, diarys or sketchbooks. \"Large books 200 pages - made with eco-friendly paper\" Mini books - ideal for noting passwords",
+         "price":18.00,
+         "category":1,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"leather-notebooks-diaries.jpeg"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Pure and Natural Beard Oils - 50ml",
+         "description":"The conditioning properties of a good beard oil are indispensable.  Beard oil will not only help to grow a better one, but make it more comfortable, healthy and sweet-smelling in the process. \" Four types have been carefully blended to help cleanse, condition, regenerate and enhance any beard or stubble.\" It is fast absorbing and contain blends of pure essential oils and Coconut, Apricot, Avocado, Argan, Vitamin E and Golden Jojoba oils. \"What does this mean exactly? All those rich in vitamins oils will soften coarse hair and help make it supple and easier to style. And, behind the scenes they will help condition the skin underneath, reducing the chances of it becoming itchy or flaky. Rest assured, your beards will thank you for being a Spartan Hero ",
+         "price":9.48,
+         "category":9,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"beard-oils.jpeg"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001730010",
+         "name":"Aromatherapy Car Diffuser Kit",
+         "description":"Enhance your trip with this unique aromatherapy diffuser. You can select your favourite essential oils or blends and experience the positive health benefits they provide while driving.  \" The designer locket contains a felt pad which can hold a few drops of oil. Clip to the ventilation panel in your car to allow the fragrance to flow. The locket is made of high quality stainless steel and is supplied with 10 washable absorbent and reusable felt pads in a variety of colours. Now you can control the fragrance in your car.\"Accessorise your car with unique jewellery\"Choose your own aroma to suit your mood\"Includes 10 colour fragrance felt pads ",
+         "price":10.95,
+         "category":6,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"car-diffuser-kit.jpeg"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001890157",
+         "name":"Natural Cotton Eye Pillows - Bag + Inner",
+         "description":"Take a look at these Natural Cotton eye Pillows. The cotton eye pillow inner can be filled with wheat or lavender flowers. \"The pillow inner can be filled with linseed and lavender essential oil specially formulated for a relaxing experience.  The relaxing weight of the linseed inside the bag gently presses against your eyes and forehead releasing tensions in the body and refreshing the eyes.\" Please note: Natural Cotton Eye Pillows are sold empty.",
+         "price":4.50,
+         "category":9,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"cotton-eye-pillow-bag.jpeg"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002111605",
+         "name":"Crystal Bracelets",
+         "description":"Add a little arm candy to your life.\" A variety of beautiful gemstones, with currently 12 designs so you can find the perfect one - although the fashion is to wear three or four. \"Each design with a different stone and a tag that describes the traditional power of that gemstone.  So cool, so amazing. \"Don't worry about them fitting as they stretch - one size fits all.\" A perfect gift for any occasion.  ",
+         "price":5.00,
+         "category":7,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"crystal-bracelets.jpeg"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002260206",
+         "name":"Mens Leather Bracelet Sets",
+         "description":"It's like this - set is made up of at least 4 bracelets.\" They are very comfortable to wear and perfect for any wrist size as they come with an adjustable cord.\" Packs of eight with four assorted designs on beautiful header cards gives you more choice. \" Add a little bit of arm candy to your life and muscle up.",
+         "price":5.50,
+         "category":6,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"mens-bracelets.jpeg"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002440521",
+         "name":"Orgonite Pyramids and Shapes",
+         "description":"Wow, it doesn't get more magical or esoteric than this. Sometimes known as power flow objects these Orgonite Objects are made with gemstone chips, copper, metal filings and have esoteric objects inside. Orgonite has become very popular as a spiritual healing tool, and as protection against electromagnetic pollution. All the objects are very special, but check out the Orgonite Water Wand.. it contains real holy water from the Ganges.\"Many people notice positive emotional effects in the presence of orgone generators, mood and emotions tend to elevate. Some people report that they can sleep better and more soundly with an orgone generator in the bedroom.\"NB: Due to the nature of the item and its manufacturing process the designs may vary and the images are for illustration purposes only",
+         "price":25.00,
+         "category":6,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"orgonite-pyramid-shapes.jpeg"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002601115",
+         "name":"Pure Essential Oils Reed Diffusers - 200ml",
+         "description":"Presented in a classy box,Proudly made in the UK. Just smell the the difference... \"This beautiful classic wholesale reed diffuser made with essential oils (in a special eco-mineral oil base) to enchant and delight you. Slowly and delicately the aroma will rise along the sticks and fill any room with a truly aromatic fragrance.  \"The big 200ml  bottles means the aroma can last for up to 12 weeks.\"Simply open the special lid, remove the plug (replace the lid) and place the rattan sticks into the neck. \"Order Today and go on an aromatic adventure!\"Warnings: Avoid contact with eyes. Keep away from children and animals. Use only as Directed. Take care when placing on painted or polished surfaces. Keep away from heat, flame and sources of ignition. Wash hands after use.",
+         "price":18.00,
+         "category":9,
+         "rating":5.0,
+         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+         "image":"reed-diffusers.jpeg"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002690715",
+         "name":"Mineral Salt Deodorants",
+         "description":"Himalayan Salt Deodorant is a pure, hand-mined salt that is derived from ancient sea salt deposits in the foothills of the Himalayas. These Natural deodorants are not processed in any way except they are carved from natural chunks of Himalayas Crystals. The deodorant stone leaves a layer of protection that helps prevent odour causing bacteria from forming.\"Himalayan Salt has a rich mineral content that includes over 84 minerals and trace elements such as calcium, magnesium, potassium, copper and iron.\"You can use Himalayan salt deodorant for a chemical-free alternative to commercial deodorants. You can wet it and use it as a regular deodorant bar to provide an invisible layer of salt to deter odours. Sea salt is known for its stimulating and soothing properties. \"Himalayan Salt Deodorant Stones can be used in a variety of ways, can be frozen to give a cooling sensation or heated and applied to any area of the body for a nice warming sensation or even used as a massage stone to get deep relaxation and improving sleep quality, helping the relaxation to the body as the stones gently draw toxins from the skin while soothing tense, sore muscles.\"Natural Mineral Salt deodorant protection.\"It feels clean and fresh. \"Hypoallergenic and Fragrance-Free. \"Eliminates body odour.  \"Unisex.",
+         "price":3.85,
+         "category":9,
+         "rating":5.0,
+         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+         "image":"salt-deodorant.jpeg"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5007320233",
+         "name":"Aromatherapy Shower Steamer - 80g",
+         "description":"Like a bathbomb for the shower.  Simply place in the base of your shower to create a spa like aromatic environment.  Luxury in your home, and now those without a bath can still indulge. \"Steamers include our best essential oils mixed with herbs, rose petals, kosher salt.\"They make a super fragrant and attractive display, a lovely gift and perfect as wedding favours - or maybe for the baby shower :)\"Different fragrances designed for all the reasons you might take a shower. \"Refresh yourself.",
+         "price":1.95,
+         "category":9,
+         "rating":5.0,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0429201617074742M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"shower-steamer.jpeg"
+      }
+   }
+]
