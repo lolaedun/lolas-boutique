@@ -29,7 +29,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #868fa3;
     color: white;
     min-width: 260px;
 }
@@ -62,8 +62,8 @@ body {
     border: 1px solid black !important;
 }
 
-.bg-black{
-    background: #000 !important;
+.bg-grey{
+    background: #868fa3 !important;
 }
 
 .overlay {
