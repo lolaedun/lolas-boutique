@@ -1,0 +1,1 @@
+web: gunicorn lolas_boutique.wsgi:application
