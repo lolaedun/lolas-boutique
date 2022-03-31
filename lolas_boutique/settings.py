@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 from pathlib import Path
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
@@ -48,6 +51,8 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'photos',
+    'cloudinary',
 
     # Other
     'crispy_forms',
@@ -167,6 +172,12 @@ USE_L10N = True
 
 USE_TZ = True
 
+# adding config
+cloudinary.config( 
+  cloud_name = "dbbzokmye", 
+  api_key = "931429328891774", 
+  api_secret = "MMnkFCj3w8up3wmSa-fc_y6jDmQ" 
+)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
