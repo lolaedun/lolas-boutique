@@ -173,25 +173,25 @@ USE_L10N = True
 
 USE_TZ = True
 
-# adding config
-if 'USE_CLOUDINARY' in os.environ:
-    cloudinary.config(
-        cloud_name="dbbzokmye",
-        api_key="931429328891774",
-        api_secret="MMnkFCj3w8up3wmSa-fc_y6jDmQ",
-        CLOUDINARY_URL="cloudinary://931429328891774:MMnkFCj3w8up3wmSa-fc_y6jDmQ@dbbzokmye"
-    )
+# adding configß
+
+cloudinary.config(
+cloud_name="dbbzokmye",
+api_key="931429328891774",
+api_secret="MMnkFCj3w8up3wmSa-fc_y6jDmQ",
+CLOUDINARY_URL="cloudinary://931429328891774:MMnkFCj3w8up3wmSa-fc_y6jDmQ@dbbzokmye"
+)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static-root')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'media-root')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
