@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
-import dj_database_url
 from pathlib import Path
+import dj_database_url
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
@@ -174,11 +174,13 @@ USE_L10N = True
 USE_TZ = True
 
 # adding config
-cloudinary.config( 
-  cloud_name = "dbbzokmye", 
-  api_key = "931429328891774", 
-  api_secret = "MMnkFCj3w8up3wmSa-fc_y6jDmQ" 
-)
+if 'USE_CLOUDINARY' in os.environ:
+    cloudinary.config(
+        cloud_name="dbbzokmye",
+        api_key="931429328891774",
+        api_secret="MMnkFCj3w8up3wmSa-fc_y6jDmQ",
+        CLOUDINARY_URL="cloudinary://931429328891774:MMnkFCj3w8up3wmSa-fc_y6jDmQ@dbbzokmye"
+    )
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
