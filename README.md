@@ -65,3 +65,10 @@ A Favicon was added to the site. I designed the initials LB using lato font and 
 ##### LOGO
 I have created a simple logo using **Lato** font in bold and normal to represent the purpose of the website using Canva and to maintain the consistency of fonts used throughout the site.
 
+## Wireframes
+
+These wireframes were created using [Balsamiq](https://balsamiq.com/) during the Scope Plane 
+part of the design and planning process for this project. 
+
+You can find my wireframes below:
+
