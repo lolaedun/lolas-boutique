@@ -31,4 +31,14 @@ You can view the live page HERE {{link coming soon...}}
 * To enable easy access and communication to customers and viceversa.
 * To have a reliable data storage system for assets and databases.
 
+### **Customer Requirements and Expectations**
+
+#### **Requirements**
+
+* A simple and easy way to navigate the website and place an order.
+* An easy to understand dashboard with simple controls.
+* Simple display of previous and current orders.
+* Receive updates on order status
+* Easy access to cancel an order or request a refund
+
 
