@@ -47,5 +47,9 @@ You can view the live page HERE {{link coming soon...}}
 * Simple and hassle free finding and ordering products
 * Website compatible with chosen device
 
+### **Design Choices**
+### Colours Mood board and Mockups
+I have used [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette and scheme. I went for simple muted colours to not distract from the products on display.
+
 
 
