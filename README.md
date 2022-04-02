@@ -51,5 +51,8 @@ You can view the live page HERE {{link coming soon...}}
 ### Colours Mood board and Mockups
 I have used [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette and scheme. I went for simple muted colours to not distract from the products on display.
 
+##### FONT CHOICE
+  I chose to use a simple **Lato** font for this website to keep things simple and legible.
+
 
 
