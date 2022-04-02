@@ -54,5 +54,10 @@ I have used [ColourLovers](https://www.colourlovers.com/palettes) to find inspir
 ##### FONT CHOICE
   I chose to use a simple **Lato** font for this website to keep things simple and legible.
 
+##### ICONS
+
+A Favicon was added to the site. I designed an orange circle with the letter K and green leaves using the chosen brand colours.
+
+![Favicon](/static/media/favicon.png)
 
 
