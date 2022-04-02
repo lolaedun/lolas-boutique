@@ -38,7 +38,14 @@ You can view the live page HERE {{link coming soon...}}
 * A simple and easy way to navigate the website and place an order.
 * An easy to understand dashboard with simple controls.
 * Simple display of previous and current orders.
-* Receive updates on order status
-* Easy access to cancel an order or request a refund
+* Receive updates on order status.
+* Easy access to cancel an order or request a refund.
+
+#### **Expectations**
+
+* Updates on order status and view previous orders.
+* Simple and hassle free finding and ordering products
+* Website compatible with chosen device
+
 
 
