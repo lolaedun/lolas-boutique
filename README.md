@@ -60,4 +60,8 @@ A Favicon was added to the site. I designed the initials LB using lato font and 
 
 ![Favicon](/static/media/favicon.png)
 
+![Colours](/static/media/mood-board.png)
+
+##### LOGO
+I have created a simple logo using **Lato** font in bold and normal to represent the purpose of the website using Canva and to maintain the consistency of fonts used throughout the site.
 
