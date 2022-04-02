@@ -8,3 +8,14 @@ This website provides full CRUD functionality to the admin user to add and delet
 You can view the live page HERE {{link coming soon...}}
 
 
+## **UX**
+
+### **Customer Goals**
+
+* The website has to work well on all kind of devices like mobile phones, tables and desktops.
+* Visually appealing website.
+* Customer should be able to easily find and buy products.
+* Customer purchase should be seamless, easy and quick.
+* Customer should have ability to view current and past orders.
+
+
