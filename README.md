@@ -25,4 +25,10 @@ You can view the live page HERE {{link coming soon...}}
 * As a customer, I would like access to a history of all my orders including current ones.
 * As a customer, I would like an email confirmation that updates me on the status of my order.
 
+### **Admin Goals**
+* To have an ecommerce store that allows CRUD functions for products and customers.
+* To access and update customer orders and progress.
+* To enable easy access and communication to customers and viceversa.
+* To have a reliable data storage system for assets and databases.
+
 
