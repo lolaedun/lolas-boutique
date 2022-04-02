@@ -18,4 +18,11 @@ You can view the live page HERE {{link coming soon...}}
 * Customer purchase should be seamless, easy and quick.
 * Customer should have ability to view current and past orders.
 
+### **Customer Stories**
+
+* As a customer, I would like to have a quick, simple and hassle free experience during my purchase.
+* As a customer, I would like to easily search for and find what I'm looking for regardless of device i'm using.
+* As a customer, I would like access to a history of all my orders including current ones.
+* As a customer, I would like an email confirmation that updates me on the status of my order.
+
 
