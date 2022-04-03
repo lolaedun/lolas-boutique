@@ -78,3 +78,14 @@ You can find my wireframes below:
 
 ### [Desktop Wireframes](docs/wireframes/Desktop-wireframes.pdf)
 
+&nbsp;
+
+# Features
+## Existing Features
+
+### Elements on the page
+
+#### REGISTER
+A simple registration form was created to collect user name and password to send to the database using the register button. 
+
+Form Validations have been added to provide feedback to the user.
