@@ -72,10 +72,9 @@ part of the design and planning process for this project.
 
 You can find my wireframes below:
 
+### [Mobile Wireframes](docs/wireframes/Mobile-wireframes.pdf)
 
 ### [Tablet Wireframes](docs/wireframes/Tablet-wireframes.pdf)
-
-&nbsp;
 
 ### [Desktop Wireframes](docs/wireframes/Desktop-wireframes.pdf)
 
