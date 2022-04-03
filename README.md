@@ -104,5 +104,10 @@ A flash message appears if login was successful welcoming the user. The user is 
 ##### **USER PROFILE**
 User profile displays username and a form to update delivery information as well as a view to see previous orders.
 
+#### ADMIN USER and USER
+The admin user has complete access to carry out CRUD functions for products and orders while the standard user only has view products and place an order.
+
+The admin user has the edit and delete buttons that appear next to each product.
+
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
