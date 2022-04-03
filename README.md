@@ -112,5 +112,8 @@ The admin user has the edit and delete buttons that appear next to each product.
 ##### **CREATE**
 Admin user can add a new product and upload image of product filling out the form which gets sent to the database.
 
+##### **READ**
+All logged in users have access to view products and previous orders.
+
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
