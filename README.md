@@ -124,3 +124,6 @@ Once changes have been saved a flash message displays the named activity has bee
 
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
+
+#### LOG OUT
+Users can log out easily from the navbar. A flash message appears to confirm the user has been logged out and is redirected to login page.
