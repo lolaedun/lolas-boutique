@@ -115,5 +115,12 @@ Admin user can add a new product and upload image of product filling out the for
 ##### **READ**
 All logged in users have access to view products and previous orders.
 
+##### **UPDATE**
+Admin user can edit products by clicking the edit button next to each product which loads up the pre-populated form.
+Standard user can update delivery information from their profile page.
+
+Once changes have been saved a flash message displays the named activity has been successfully updated.
+
+
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
