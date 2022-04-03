@@ -100,3 +100,6 @@ A simple login form was created to find user in the database. Form validations h
 There is a flash warning message if incorrect username or password is entered. A link to register from the login page is available if a user has not registered yet.
 
 A flash message appears if login was successful welcoming the user. The user is immediately logged into profile page with access to view the activities.
+
+##### **DELETE**
+Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
