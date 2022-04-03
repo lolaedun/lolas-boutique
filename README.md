@@ -101,5 +101,8 @@ There is a flash warning message if incorrect username or password is entered. A
 
 A flash message appears if login was successful welcoming the user. The user is immediately logged into profile page with access to view the activities.
 
+##### **USER PROFILE**
+User profile displays username and a form to update delivery information as well as a view to see previous orders.
+
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
