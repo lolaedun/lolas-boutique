@@ -37,15 +37,10 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        {% for link in social_media %}
-        
-        
+      {% for link in social_media %}
         <a class="btn btn-outline-light btn-floating m-1" href="{{ link.url }}" role="button"
           ><i class="{{ link.icon }}"></i
         ></a>
-        
-  
-    
       {% endfor %}
 
       </section>
