@@ -37,21 +37,19 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
+        {% for link in social_media %}
+        
+        
+        <a class="btn btn-outline-light btn-floating m-1" href="{{ link.url }}" role="button"
+          ><i class="{{ link.icon }}"></i
         ></a>
+        
   
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
+    
+      {% endfor %}
+
       </section>
-      <!-- Section: Social media -->
+
   
       <!-- Section: Form -->
       <section class="">
@@ -92,10 +90,14 @@
   
       <!-- Section: Text -->
       <section class="mb-4">
+        
         <h5 class="text-uppercase">About Us</h5>
+        {% for text in footer %}
         <p>
-            Hello and welcome to my store, hope you will find something interesting to buy for yourself or your loved ones! This is a test store that was created using Django, Python and Bootstrap. You can view my code in my GitHub profile. Have a good day!
+            {{ text.bio }}
         </p>
+
+        {% endfor %}
       </section>
 
   

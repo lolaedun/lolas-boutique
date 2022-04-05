@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Nav, Footer
+from .models import Footer, SocialMedia
 # Register your models here.
 
-admin.site.register(Nav)
+
 admin.site.register(Footer)
+admin.site.register(SocialMedia)
