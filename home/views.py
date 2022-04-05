@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import  Footer, SocialMedia
+from .models import Footer, SocialMedia
 
 # Create your views here.
 
@@ -11,10 +11,10 @@ def index(request):
     """
     footer = Footer.objects.all()
     social_media = SocialMedia.objects.all()
-    
+
 
     context = {
-        
+    
         'footer': footer,
         'social_media': social_media
     }
