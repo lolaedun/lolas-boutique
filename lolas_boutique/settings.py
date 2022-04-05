@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary_storage',
+    'cloudinary',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
@@ -55,8 +57,6 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'photos',
-    'cloudinary',
-    'cloudinary_storage',
 
     # Other
     'crispy_forms',
@@ -142,8 +142,6 @@ else:
         }
     }
 
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -188,7 +186,9 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Cloudinary stuff
 
-CLOUDINARY_STORAGE = {'CLOUD_NAME': 'dbbzokmye', 'API_KEY': '931429328891774', 'API_SECRET': 'MMnkFCj3w8up3wmSa-fc_y6jDmQ', }
+CLOUDINARY_STORAGE = {
+    'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')
+}
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -208,3 +208,5 @@ DEFAULT_FROM_EMAIL = 'mledun@hotmail.com'
 # Configure Django App for Heroku.
 import django_on_heroku
 django_on_heroku.settings(locals())
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
