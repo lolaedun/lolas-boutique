@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/static/media/Lolas-Boutique-homepage.png') no-repeat center center fixed;
+    background: url('/static/media/Lolas-Boutique-homepage.png') no-repeat center center scroll;
     background-size: cover;
     background-position-y: 88px;
     height: calc(100vh - 164px);
