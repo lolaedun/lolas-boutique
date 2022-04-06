@@ -131,16 +131,20 @@ WSGI_APPLICATION = 'lolas_boutique.wsgi.application'
 
 
 if 'DATABASE_URL' in os.environ:
+    print("in postgress db")
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
+    print("in local db")
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+
+
 
 
 # Password validation
