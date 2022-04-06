@@ -9,4 +9,4 @@ class Footer (models.Model):
 
 class SocialMedia (models.Model):
     url = models.CharField(max_length=100)
-    socialicon = models.CharField(max_length=20)
+    icons = models.CharField(max_length=20)
