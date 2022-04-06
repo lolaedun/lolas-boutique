@@ -1,5 +1,5 @@
 ## Lola's Boutique
-{{IMAGE COMING SOON...}}
+![Mock up](static/media/lb-mockup.png)
 
 Welcome to my online boutique where I have mindfulness inspired products available to buy. This ecommerce store was built using Django and Python, deployed on Heroku.
 
