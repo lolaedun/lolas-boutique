@@ -125,7 +125,7 @@ Once changes have been saved a flash message displays the named activity has bee
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
 
-#### LOG OUT
+##### **LOG OUT**
 Users can log out easily from the navbar. A flash message appears to confirm the user has been logged out and is redirected to login page.
 
 ### **Database Structure**
@@ -151,6 +151,24 @@ I have used Django to set up the relational database. SQLite was used in the dev
 | order total   | DecimalField  |
 | delivery cost | DecimalField  |
 | grand total   | DecimalField  |
+
+
+
+#### HOME PAGE Footer Section
+
+#### **Footer - About me:**
+
+| Key  | Value     |
+|------|-----------|
+| bio  | TextField |
+
+
+#### **Social Media:**
+
+| Key   | Value     |
+|-------|-----------|
+| url   | Charfield |
+| icons | Charfield |
 
 ## **Technologies used**
 
