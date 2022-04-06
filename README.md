@@ -170,6 +170,27 @@ I have used Django to set up the relational database. SQLite was used in the dev
 | url   | Charfield |
 | icons | Charfield |
 
+
+#### PRODUCTS Section
+
+#### **Categories:**
+
+| Key           | Value     |
+|---------------|-----------|
+| name          | Charfield |
+| friendly name | Charfield |
+
+#### **Products:**
+
+| Key      | Value        |
+|----------|--------------|
+| sku      | Charfield    |
+| name     | Charfield    |
+| category | ForeignKey   |
+| price    | DecimalField |
+| rating   | DecimalField |
+| image    | ImageField   |
+
 ## **Technologies used**
 
 
