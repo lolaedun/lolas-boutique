@@ -5,7 +5,7 @@ Welcome to my online boutique where I have mindfulness inspired products availab
 
 This website provides full CRUD functionality to the admin user to add and delete products from the purposely built admin panel. Customers are able to view a history of all orders placed from their profile login.
 
-You can view the live page HERE {{link coming soon...}}
+You can view the live page [HERE](https://lolas-boutique.herokuapp.com/)
 
 
 ## **UX**
