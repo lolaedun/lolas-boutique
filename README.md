@@ -128,6 +128,19 @@ Admin user can delete products. A flash message appears confirming it has been s
 #### LOG OUT
 Users can log out easily from the navbar. A flash message appears to confirm the user has been logged out and is redirected to login page.
 
+### **Database Structure**
+
+I have used Django to set up the relational database. SQLite was used in the development phase and Heroku was used for live production using Postgres. These are the daatabase model created for this project: 
+
+#### **Users:**
+
+| Key           | Value      |
+|---------------|------------|
+| userID        | Autofield  |
+| username      | Charfield  |
+| email address | Emailfield |
+| password      | Charfield  |
+
 ## **Technologies used**
 
 
