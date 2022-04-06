@@ -141,6 +141,17 @@ I have used Django to set up the relational database. SQLite was used in the dev
 | email address | Emailfield |
 | password      | Charfield  |
 
+#### **Orders:**
+
+| Key           | Value         |
+|---------------|---------------|
+| order number  | Charfield     |
+| date          | DateTimeField |
+| full name     | Charfield     |
+| order total   | DecimalField  |
+| delivery cost | DecimalField  |
+| grand total   | DecimalField  |
+
 ## **Technologies used**
 
 
