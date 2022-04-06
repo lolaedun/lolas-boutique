@@ -4,7 +4,9 @@ from django.db import models
 
 
 class Footer (models.Model):
-    bio = models.TextField(help_text='enter your bio or about us information here')
+    bio = models.TextField(
+        help_text='enter your bio or about us information here'
+        )
 
 
 class SocialMedia (models.Model):
