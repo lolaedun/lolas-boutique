@@ -129,6 +129,15 @@ You can find my wireframes below:
 
 #### Product Details Page
 ![Product Details](static/media/product-details.png)
+
+
+- __The Categories__
+
+  - There are 2 main categories - Books & Paper and Accessories. These categories are further split into sub-categories for easier navigation and grouping of similar products
+  - The categories can be found along the navigation bar and by clicking to see all products in that category, this displays links to the sub categories.
+  
+#### Sub Categories example
+![Categories](static/media/categories.png)
 #### REGISTER
 A simple registration form was created to collect user name and password to send to the database using the register button. 
 
