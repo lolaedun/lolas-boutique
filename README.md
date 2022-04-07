@@ -117,6 +117,18 @@ You can find my wireframes below:
   - The footer is valuable to the user as it encourages them to keep connected via social media and remain relatable to the store owner.
 
 ![Footer](/static/media/footer.png)
+
+- __The Products__
+
+  - The products page is fully responsive and will provide the user with images and details about each product available to buy.
+  - Admin users have access to CRUD functions for each product directly on the website upon login. 
+  - Users can sort products according to their prefrences using the drop down
+  - Each product has a details page which gives the user more information about the product with options to choose quantity, add to bag, or keep shopping.
+#### Products Page
+![Products](static/media/products.png)
+
+#### Product Details Page
+![Product Details](static/media/product-details.png)
 #### REGISTER
 A simple registration form was created to collect user name and password to send to the database using the register button. 
 
