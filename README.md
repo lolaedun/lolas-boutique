@@ -147,9 +147,18 @@ You can find my wireframes below:
 
   - A bootstrap toast message appears if signup was successful and a user profile is created. The user is re-directed to the confirm email page.
 
+
 ![Sign Up](static/media/signup.png)
 ![Verify Email](static/media/verify-email.png)
 ![Toast message](static/media/toast-email.png)
+
+  - Once email have been recieved and the link in the email clicked, the user is sent to the confirm email page to continue with verification.
+  - Toast message appears to confirm success and user is directed to the login page.
+
+![Confirm Email](static/media/confirm.png)
+![Toast message](static/media/toast-confirm.png)
+
+
 
 #### LOG IN
 A simple login form was created to find user in the database. Form validations have been added to provide feedback to the user.
