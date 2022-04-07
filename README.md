@@ -87,6 +87,18 @@ You can find my wireframes below:
 
 ### Elements on the page
 
+- __Navigation Bar__
+
+  - Featured on all pages is a fully responsive navigation bar which includes links to the Logo, Home page, Products and their categories, a functioning search bar, accounts profile (for login, registration and order/product management), a shopping bag with products and their totals, as well as a promotion banner for delivery charges. This is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+
+#### Mobile Navigation
+![Nav Bar Moblie](static/media/nav-mobile.png)
+
+#### Desktop Navigation
+![Nav Bar Desktop](static/media/nav-desktop.png)
+
 #### REGISTER
 A simple registration form was created to collect user name and password to send to the database using the register button. 
 
