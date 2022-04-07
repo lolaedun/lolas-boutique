@@ -99,6 +99,14 @@ You can find my wireframes below:
 #### Desktop Navigation
 ![Nav Bar Desktop](static/media/nav-desktop.png)
 
+- __The home page image__
+
+  - The home page image was designed using [Canva](https://www.canva.com/). I used the branding colours and elements to represent the lifestyle of the target customer it was designed with enough space to include text overlay with a call to action.
+
+  - This section introduces the customer to Lola's Boutique with soft colours and a call to action to grab their attention.
+
+![Home Page](static/media/home-banner.png)
+
 #### REGISTER
 A simple registration form was created to collect user name and password to send to the database using the register button. 
 
