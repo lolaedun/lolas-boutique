@@ -12,6 +12,9 @@ body {
     
 }
 
+#bg-signup{
+    background-color: red;
+}
 
 /* from Bulma */
 .icon {
@@ -80,9 +83,10 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: rgb(255, 255, 255);
 	z-index: -1;
 }
+
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
@@ -181,8 +185,10 @@ input[name='q']::placeholder {
     max-width: 80%;
   }
 }
-}	
-/* Allauth form formatting */	
+
+/* Allauth form formatting */
+
+
 .allauth-form-inner-content p {	
     margin-top: 1.5rem; /* mt-4 */	
     color: #6c757d; /* text-secondary */	

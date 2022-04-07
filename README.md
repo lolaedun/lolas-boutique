@@ -138,14 +138,18 @@ You can find my wireframes below:
   
 #### Sub Categories example
 ![Categories](static/media/categories.png)
-#### REGISTER
-A simple registration form was created to collect user name and password to send to the database using the register button. 
 
-Form Validations have been added to provide feedback to the user.
+- __Sign Up__
 
-There is a flash warning message if a user already exists. A link to login from the registration page is available if a user has already been registered and exists on the database.
+  - A simple sign up form was created to collect email, user name and password using django's built in allauth templates. 
 
-A flash message appears if registration was successful and a user profile is created. The user is immediately logged into profile page with access to view the activities.
+  - These come pre-built with Form Validations and messages to provide feedback to the user.
+
+  - A bootstrap toast message appears if signup was successful and a user profile is created. The user is re-directed to the confirm email page.
+
+![Sign Up](static/media/signup.png)
+![Verify Email](static/media/verify-email.png)
+![Toast message](static/media/toast-email.png)
 
 #### LOG IN
 A simple login form was created to find user in the database. Form validations have been added to provide feedback to the user.

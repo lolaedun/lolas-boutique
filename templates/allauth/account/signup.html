@@ -1,10 +1,13 @@
 {% extends "account/base.html" %}
-
+{% load static %}
 {% load i18n %}
 
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
+
+     
 {% block inner_content %}
+
 <hr>
 <h2 class="logo-font mb-4">{% trans "Sign Up" %}</h2>
 <hr>
@@ -19,6 +22,8 @@
   {% endif %}
   <a class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
   <button type="submit">{% trans "Sign Up" %}</button>
+  
 </form>
+
 
 {% endblock %}
