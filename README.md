@@ -107,6 +107,16 @@ You can find my wireframes below:
 
 ![Home Page](static/media/home-banner.png)
 
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for Lola's Boutique. The links will open to a new tab to allow easy navigation for the user. There is an unlimited amount of social icons that can be added to the footer section via the Django admin panel.
+  - There is a brief about me section to make Lola's Boutique more personable to the user.
+  - The footer social links and About Me section can be easily edited using CRUD functions by the via the Django admin panel as I have created models for this section.
+  - There is also a copyright section at the bottom of the footer.
+  - The footer is valuable to the user as it encourages them to keep connected via social media and remain relatable to the store owner.
+
+![Footer](/static/media/footer.png)
 #### REGISTER
 A simple registration form was created to collect user name and password to send to the database using the register button. 
 
