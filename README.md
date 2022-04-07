@@ -159,13 +159,14 @@ You can find my wireframes below:
 ![Toast message](static/media/toast-confirm.png)
 
 
+- __Sign in__
 
-#### LOG IN
-A simple login form was created to find user in the database. Form validations have been added to provide feedback to the user.
+  - A simple Sign in form was created to find user in the django database using the allauth templates complete with form validations and warnings.
+  - There is a link for forgotten passwords as well as buttons to return to the home page or sign in.
+  - Bootstrap toast message appears if login was successful.
 
-There is a flash warning message if incorrect username or password is entered. A link to register from the login page is available if a user has not registered yet.
-
-A flash message appears if login was successful welcoming the user. The user is immediately logged into profile page with access to view the activities.
+![Sign in](static/media/sign-in.png)
+![Toast signedin](static/media/toast-signedin.png)
 
 ##### **USER PROFILE**
 User profile displays username and a form to update delivery information as well as a view to see previous orders.
