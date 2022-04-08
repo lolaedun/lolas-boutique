@@ -18,3 +18,7 @@ def index(request):
         'social_media': social_media
     }
     return render(request, 'home/index.html', context)
+
+
+def handle_404(request, exception):
+    return render(request, '404.html')
