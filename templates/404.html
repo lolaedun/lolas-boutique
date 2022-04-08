@@ -1,6 +1,5 @@
-{% load static %}
-{% load cloudinary %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -9,20 +8,34 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="">
 <title>404</title>
 </head>
 <body>
 
-    <h2> oops! This page doesn't exist.</h2>
+    <style>
+        .jumbotron {
+          
+          background-size: cover;
+          height: 100vh;
+          background-image: url('https://res.cloudinary.com/dbbzokmye/image/upload/v1649453339/404_x2v6nz.png');
+          
+          
+        }
+    </style>
+    
+    <div class="jumbotron">
+        
+        <h2> Oops! This page doesn't exist.</h2>
+        <p>This might be a helpful link:</p>
+        <ul>
+            <li>
+                <a href="{% url 'home'%}">Go Back to the Homepage</a>
+            </li>
+        </ul>
+    </div>
 
-    <p>This might be a helpful link</p>
-
-    <ul>
-        <li>
-            <a href="{% url 'home'%}">Go Back to the Homepage</a>
-        </li>
-    </ul>
+    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
