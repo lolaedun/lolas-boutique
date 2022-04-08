@@ -295,13 +295,15 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 ### Local Development
 
-I have created the Kindergarten Activities project using Github, from there I used [Gitpod](https://gitpod.io/) to write my code. 
+I have created Lolas Boutique project using Github, from there I used [Gitpod](https://gitpod.io/) to write my code. 
 Then I used commits to git followed by "git push" to my GitHub repository. 
 I've deployed this project to Heroku and used "git push heroku master" to make sure my pushes to GitHub were also made to Heroku. 
 
 This project can be ran locally by following the following steps: (
 I used Gitpod for development, so the following steps will be specific to Gitpod. 
 You will need to adjust them depending on your IDE. You can find more information about installing packages using pip and virtual environments [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+
+
 
 To clone the project: 
 
@@ -347,34 +349,36 @@ To clone the project:
     
 ### To deploy your project on Heroku, use the following steps: 
 
-1. Login to your Heroku account and create a new app. Choose your region. 
-1. Ensure the Procfile and requirements.txt files exist are present and up-to-date in your local repository.  
-    Requirements:
-    ```
-    pip3 freeze --local > requirements.txt
-    ```
-    Procfile:
-    ```
-    echo web: python app.py > Procfile
-    ```
-1. The Procfile should contain the following line:
-    ```
-    web: python app.py
-    ```
+To deploy this page to Heroku from its GitHub repository, the following steps were taken:
 
-1. Scroll down to "deployment method"-section. Choose "Github" for automatic deployment.
-1. From the inputs below, make sure your github user is selected, and then enter the name for your repo. Click "search". When it finds the repo, click the "connect" button.
-1. Scroll back up and click "settings". Scroll down and click "Reveal config vars". Set up the same variables as in your env.py (IP, PORT, SECRET_KEY, MONGO_URI and MONGODB_NAME):
-    !You shouldn't set the DEBUG variable in under config vars, only in your env.py to prevent DEBUG being active on live website. 
+1. Create the Heroku App:
+    - Select "Create new app" in Heroku.
+    - Choose a name for your app and select the location.
 
-    ```
-    IP = 0.0.0.0
-    PORT = 5000
-    SECRET_KEY = YOUR_SECRET_KEY
-    MONGO_URI = YOUR_MONGODB_URI
-    MONGO_DBNAME = DATABASE_NAME
-    ```
+2. Attach the Postgres database:
+    - In the Resources tab, under add-ons, type in Postgres and select the Heroku Postgres option.
 
-1. Scroll back up and click "Deploy". Scroll down and click "Enable automatic deployment".
-1. Just beneath, click "Deploy branch". Heroku will now start building the app. When the build is complete, click "view app" to open it.
-1. In order to commit your changes to the branch, use git push to push your changes.
+3. Prepare the environment and settings.py file:
+    - In the Settings tab, click on Reveal Config Vars and copy the url next to DATABASE_URL.
+    - In your GitPod workspace, create an env.py file in the main directory. 
+    - Add the DATABASE_URL value and your chosen SECRET_KEY value to the env.py file.
+    - Add the SECRET_KEY value to the Config Vars in Heroku.
+    - Update the settings.py file to import the env file and add the SECRETKEY and DATABASE_URL file paths.
+    - Update the Config Vars with the Cloudinary url, adding into the settings.py file also.
+    - In settings.py add the following sections:
+        - Cloudinary to the INSTALLED_APPS list
+        - STATICFILE_STORAGE
+        - STATICFILES_DIRS
+        - STATIC_ROOT
+        - MEDIA_URL
+        - DEFAULT_FILE_STORAGE
+        - TEMPLATES_DIR
+        - Update DIRS in TEMPLATES with TEMPLATES_DIR
+        - Update ALLOWED_HOSTS with ['app_name.heroku.com', 'localhost']
+
+4. Store Static and Media files in Cloudinary and Deploy to Heroku:
+    - Create three directories in the main directory; media, storage and templates.
+    - Create a file named "Procfile" in the main directory and add the following:
+        - web: gunicorn project-name.wsgi
+    - Go to Deploy tab on Heroku and connect to the GitHub, then to the required recpository.
+    Click on Delpoy Branch and wait for the build to load. When the build is complete, the app can be opened through Heroku.
