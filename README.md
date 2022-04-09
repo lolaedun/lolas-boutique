@@ -184,12 +184,12 @@ You can find my wireframes below:
 
 ![404 Page](static/media/404.png)
 
-
+#### ADMIN USER and USER Profiles
 
 ##### **USER PROFILE**
 User profile displays username and a form to update delivery information as well as a view to see previous orders.
 
-#### ADMIN USER and USER
+
 The admin user has complete access to carry out CRUD functions for products and orders while the standard user only has view products and place an order.
 
 The admin user has the edit and delete buttons that appear next to each product.
