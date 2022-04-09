@@ -34,15 +34,15 @@
   <footer class="bg-dark text-center text-white fluid-container">
  
     <div class="container p-4">
-      <section class="mb-4">
+      <div class="mb-4">
         {% for link in social_media %}
           <a class="btn btn-outline-light btn-floating m-1" href="{{ link.url }}" target="_blank" role="button"
             ><i class="{{ link.icons }}"></i
           ></a>
         {% endfor %}
-      </section>
+      </div>
 
-      <section class="mb-4">   
+      <div class="mb-4">   
         <h5 class="text-uppercase">About Me</h5>
         {% for text in footer %}
         <p>
@@ -50,11 +50,7 @@
         </p>
 
         {% endfor %}
-      </section>
-
-  
-    
-  
+      </div>
     </div>
 
   
