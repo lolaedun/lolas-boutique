@@ -186,16 +186,24 @@ You can find my wireframes below:
 
 #### ADMIN USER and USER Profiles
 
-##### **USER PROFILE**
-User profile displays username and a form to update delivery information as well as a view to see previous orders.
+- __User Profile__
 
 
-The admin user has complete access to carry out CRUD functions for products and orders while the standard user only has view products and place an order.
+  - User profile displays current and previous order details as well as a form section to update delivery information.
 
-The admin user has the edit and delete buttons that appear next to each product.
+![User Profile](static/media/user-profile.png)
+
+- __Admin Profile__
+
+  - The admin user has complete access to carry out CRUD functions for product management via my accounts section
+
+  - The admin user has the edit and delete buttons that appear next to each product.
+
+![Product Management](static/media/product-management.png)
+![Product Admin](static/media/product-admin.png)
 
 ##### **CREATE**
-Admin user can add a new product and upload image of product filling out the form which gets sent to the database.
+Admin user can add a new product and upload image of product filling out the form via product management page.
 
 ##### **READ**
 All logged in users have access to view products and previous orders.
@@ -204,11 +212,11 @@ All logged in users have access to view products and previous orders.
 Admin user can edit products by clicking the edit button next to each product which loads up the pre-populated form.
 Standard user can update delivery information from their profile page.
 
-Once changes have been saved a flash message displays the named activity has been successfully updated.
+Once changes have been saved, toast message displays it has been successfully updated.
 
 
 ##### **DELETE**
-Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
+Admin user can delete products. A toast message appears confirming it has been successfully deleted and user is returned to the products page.
 
 
 
