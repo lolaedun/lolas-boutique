@@ -301,7 +301,13 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 ![CSS Test](static/media/css-test.png)
 
-Flake 8
+- FLAKE8
+  - Flake 8 testing was done via the terminal. vscode/arctictern and migrations were ignored. The rest of the errors were fixed with a few exceptions below where they couldn't be changed without affecting the code:
+
+   ![checkout-flake8](static/media/checkout-flake8.png)
+   ![settings-flake8](static/media/settings-flake8.png)
+   ![products-flake8](static/media/products-flake8.png)
+
 SCREEN SIZES (Responsiveness)
 PLACING AN ORDER
 REGISTER
