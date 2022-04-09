@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django_extensions',
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
@@ -198,21 +197,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
-# Data-schema image
-
-GRAPH_MODELS = {
-    'all_applications' : True,
-    'group_models' : True,
-    "app_labels": [
-        "bag/",
-        "checkout/",
-        "home/",
-        "lolas_boutique/",
-        "products/",
-        "profiles/",
-    ],
-
-}
 
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
