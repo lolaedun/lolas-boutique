@@ -65,7 +65,7 @@ A Favicon was added to the site. I designed the initials LB using lato font and 
 ![Colours](/static/media/mood-board.png)
 
 ##### LOGO
-I have created a simple logo using **Lato** font in bold and normal to represent the purpose of the website using Canva and to maintain the consistency of fonts used throughout the site.
+I have created a simple logo using **Lato** font in bold and normal to represent the purpose of the website using [Canva](https://www.canva.com/) and to maintain the consistency of fonts used throughout the site.
 
 ## Wireframes
 
@@ -167,6 +167,12 @@ You can find my wireframes below:
 
 ![Sign in](static/media/sign-in.png)
 ![Toast signedin](static/media/toast-signedin.png)
+
+- __404 Page__
+  - A custom 404 page was created for when the user navigates to a link that doesn't exist.
+  - I created the image with [Canva](https://www.canva.com/) by using branding colours and fonts.
+
+![404 Page](static/media/404.png)
 
 ##### **USER PROFILE**
 User profile displays username and a form to update delivery information as well as a view to see previous orders.
