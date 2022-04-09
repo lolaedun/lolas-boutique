@@ -301,6 +301,7 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 ![CSS Test](static/media/css-test.png)
 
+Flake 8
 SCREEN SIZES (Responsiveness)
 PLACING AN ORDER
 REGISTER
