@@ -275,6 +275,8 @@ I have used Django to set up the relational database. SQLite was used in the dev
 | rating   | DecimalField |
 | image    | ImageField   |
 
+![Database Schema](static/media/data-schema.png)
+
 ## **Technologies used**
 
 
