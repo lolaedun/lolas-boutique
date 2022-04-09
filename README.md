@@ -168,11 +168,23 @@ You can find my wireframes below:
 ![Sign in](static/media/sign-in.png)
 ![Toast signedin](static/media/toast-signedin.png)
 
+- __Log Out__
+
+  - Users can sign out easily from the profile tab. By clicking on the log out link, the user is directed to the sign out confirmation page.
+  - Once the user confirms signing out, a toast message appears confirm user has been logged out and re-directed to the homepage.
+
+![Log Out](static/media/log-out.png)
+![LogOut Confirm](static/media/logout-confirm.png)
+![LogOut Toast](static/media/logout-toast.png)
+
+
 - __404 Page__
   - A custom 404 page was created for when the user navigates to a link that doesn't exist.
   - I created the image with [Canva](https://www.canva.com/) by using branding colours and fonts.
 
 ![404 Page](static/media/404.png)
+
+
 
 ##### **USER PROFILE**
 User profile displays username and a form to update delivery information as well as a view to see previous orders.
@@ -198,8 +210,7 @@ Once changes have been saved a flash message displays the named activity has bee
 ##### **DELETE**
 Admin user can delete products. A flash message appears confirming it has been successfully deleted and user is returned to the products page.
 
-##### **LOG OUT**
-Users can log out easily from the navbar. A flash message appears to confirm the user has been logged out and is redirected to login page.
+
 
 ### **Database Structure**
 
