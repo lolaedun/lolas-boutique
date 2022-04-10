@@ -257,10 +257,10 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 #### **Social Media:**
 
-| Key   | Value     |
-|-------|-----------|
-| url   | Charfield |
-| icons | Charfield |
+| Key   | Value     | Default        |
+|-------|-----------|----------------|
+| icons | Charfield | max_length=20  |
+| url   | Charfield | max_length=100 |
 
 
 #### PRODUCTS Section
