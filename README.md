@@ -338,8 +338,9 @@ I have used Django to set up the relational database. SQLite was used in the dev
   ![Email confirmation](static/media/order-confirmation.png)
 
 
-- REGISTER
-- SIGN IN
+- REGISTER and SIGN IN/OUT
+  - Registration and Sign in/Out Tested and screenshots provided in the features section above. Confirmation emails received via email host set up in Heroku and using test temporary email address.
+  ![Confirm email](static/media/confirm-email.png)
 - PROFILE
 
 ## Bugs 
