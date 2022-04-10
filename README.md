@@ -267,11 +267,10 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 #### **Categories:**
 
-| Key           | Value     |
-|---------------|-----------|
-| name          | Charfield |
-| friendly name | Charfield |
-
+| Key           | Value     | Default                               |
+|---------------|-----------|---------------------------------------|
+| friendly_name | Charfield | max_length=254, null=True, blank=True |
+| name          | Charfield | max_length=254                        |
 #### **Products:**
 
 | Key         | Value        | Default                                                      |
