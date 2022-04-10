@@ -373,6 +373,8 @@ reassigned the the block content template headers to inner content and added a c
 * **Verdict**    
 Sign out page and buttons working as expected.
 
+### **Footer scrolling into hero image**
+
 * **Bug**  
 Home page footer scrolling into the homepage hero image cutting it in half.
 
