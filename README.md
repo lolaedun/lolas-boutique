@@ -346,10 +346,21 @@ I have used Django to set up the relational database. SQLite was used in the dev
   - Profile for both user and admin have been tested and work as expected. Screenshots have been provided in the features section above.
 
 - KEYS
-  - I wasn't sure if keys had been accidentally pushed to github during switching of databases so to be sure I recycled the keys and generated new ones ensure security and integrity of the site has been maintained.
+  - I wasn't sure if keys had been accidentally pushed to Github during switching of databases from SQLite to PostGres so to be sure I recycled the keys and generated new ones ensure security and integrity of the site has been maintained.
 
 
 ## Bugs 
+
+### **Profile page not showing for logged in users**
+
+* **Bug**  
+Profile page not showing on deployed Heroku site after migrating, switching to Postgres and pushing changes via Github. Page showing on local server.
+
+* **Fix**       
+Accidentally created a file thinking it was a folder holding the css in the static folder which caused issues mirroring files into the staticfiles folder. Manually moved and relinked folders and redeployed.
+
+* **Verdict**    
+Profile page working on deployed site as expected.
 
 
 ## **Technologies used**
