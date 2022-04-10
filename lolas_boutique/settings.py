@@ -130,23 +130,20 @@ WSGI_APPLICATION = 'lolas_boutique.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
-# if 'DATABASE_URL' in os.environ:
-#     print("in postgress db")
-#     DATABASES = {
-#         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-#     }
-# else:
-#     print("in local db")
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
-#     }
-
-DATABASES = {
-        'default': dj_database_url.parse('postgres://jhmueglxljfelu:545d62b03b933c524090588287e1a71ba392febe3ba52db142ca46743e071b09@ec2-54-73-68-39.eu-west-1.compute.amazonaws.com:5432/d8u8jf5kk80dmr')
+if 'DATABASE_URL' in os.environ:
+    print("in postgress db")
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
+else:
+    print("in local db")
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
