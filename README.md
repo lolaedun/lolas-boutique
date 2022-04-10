@@ -405,6 +405,7 @@ home page scrolling as expected showing footer at the bottom without cutting int
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to handle version control.
 - [GitPod](https://www.gitpod.io/) to write my code.
 - [GitHub](https://github.com/) to store and share all project code remotely.
+- [Google Devleoper Tools](https://developer.chrome.com/docs/devtools/) Used to help fix problem areas and identify bugs.
 - [Heroku](https://www.heroku.com/) to deploy my website
 - [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
 - [Google Lighthouse](https://web.dev/lighthouse-accessibility/) to carry out accessibility audits
@@ -413,9 +414,10 @@ home page scrolling as expected showing footer at the bottom without cutting int
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate CSS code
 - [Am I Responsive](http://ami.responsivedesign.is/) to create the website mockups
 - [Responsinator](http://www.responsinator.com/) to test device responsiveness
-- [MongoDB Atlas](https://www.mongodb.com/) for database storage
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) to support extensions in adding functionality to the website
-- [PyMongo](https://docs.mongodb.com/drivers/pymongo/) to work with MongoDB from Python.
+- [Django](https://www.djangoproject.com/) python based framework
+- [Cloudinary](https://cloudinary.com/) Used to store static files and images.
+- [SQLite](https://www.sqlite.org/index.html) Used when performing unit tests.
+- [PostgreSQL](https://www.postgresql.org/) Database used through heroku.
 - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) templating language for Python.
 
 ## **Deployment**
