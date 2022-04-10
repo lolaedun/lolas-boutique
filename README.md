@@ -362,6 +362,17 @@ Accidentally created a file thinking it was a folder holding the css in the stat
 * **Verdict**    
 Profile page working on deployed site as expected.
 
+### **Unable to log out Users**
+
+* **Bug**  
+unable to signout users once logged in. Sign out button wasn't responding.
+
+* **Fix**       
+reassigned the the block content template headers to inner content and added a cancel button with redirect to home page.
+
+* **Verdict**    
+Sign out page and buttons working as expected.
+
 
 ## **Technologies used**
 
