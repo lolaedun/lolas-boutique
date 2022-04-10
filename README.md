@@ -341,8 +341,11 @@ I have used Django to set up the relational database. SQLite was used in the dev
 - REGISTER and SIGN IN/OUT
   - Registration and Sign in/Out Tested and screenshots provided in the features section above. Confirmation emails received via email host set up in Heroku and using test temporary email address.
   ![Confirm email](static/media/confirm-email.png)
-- PROFILE
 
+- PROFILE
+  - Profile for both user and admin have been tested and work as expected. Screenshots have been provided in the features section above.
+
+  
 ## Bugs 
 
 
