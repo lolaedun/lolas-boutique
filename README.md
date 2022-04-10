@@ -218,6 +218,11 @@ Once changes have been saved, toast message displays it has been successfully up
 ##### **DELETE**
 Admin user can delete products. A toast message appears confirming it has been successfully deleted and user is returned to the products page.
 
+### Features Left to Implement
+
+I ran out of time but a custom branded 500 error page would be nice to add in the future.
+
+![500 error page](static/media/500.png)
 
 
 ### **Database Structure**
