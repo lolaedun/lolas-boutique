@@ -490,3 +490,28 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
         - web: gunicorn project-name.wsgi
     - Go to Deploy tab on Heroku and connect to the GitHub, then to the required recpository.
     Click on Delpoy Branch and wait for the build to load. When the build is complete, the app can be opened through Heroku.
+
+
+## **Credits**
+
+### Content - Media - Inspiration
+
+I have used the following websites to gather ideas, information and code examples for the overall content of my website. 
+
+This website would not have been possible without all these amazing resources: 
+
+- [Code Institute - BA tutorials](https://codeinstitute.net/)
+- The illustration avatars used on the hero image and 404 page were created by someone I hired on [Fiverr](https://www.fiverr.com/) to look like me.
+- The product images and descriptions were pulled from a wholesalers site called  [Ancient Wisdom](https://www.ancientwisdom.biz/).
+
+
+
+
+
+### Acknowledgements
+
+The amount of times I didn't think I would make it in time to submit this project was countless, lifes challenges seemed to come from all directions and I honestly couldn't have pulled through without the incredible and amazing support from my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)), it has been an absolute joy and a priviledge to have had his support. He has taught me so much more than just the tech stuff and I will always cherish everything he has shared with me. He didn't have to, but he did and that for me is priceless.
+
+I also saved myself a few grey hairs but gained some very important tech wisdom hairs from the tutoring I received from Ger, Scott, Alan, John. I am so grateful for imparting your wisdom when my brain had completely shut down. (lol) thank you for helping me swim across the tidal wave of codes.
+
+Thank you also to student services for checking in on me too - special shout out to Aoife!.
