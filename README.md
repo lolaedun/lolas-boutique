@@ -103,7 +103,7 @@ You can find my wireframes below:
 
   - The home page image was designed using [Canva](https://www.canva.com/). I used the branding colours and elements to represent the lifestyle of the target customer it was designed with enough space to include text overlay with a call to action.
 
-  - This section introduces the customer to Lola's Boutique with soft colours and a call to action to grab their attention.
+  - This section introduces the customer to Lola's Boutique with soft colours, illustrations and a call to action to grab their attention.
 
 ![Home Page](static/media/home-banner.png)
 
