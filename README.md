@@ -222,7 +222,7 @@ Admin user can delete products. A toast message appears confirming it has been s
 
 ### **Database Structure**
 
-I have used Django to set up the relational database. SQLite was used in the development phase and Heroku was used for live production using Postgres. These are the daatabase model created for this project: 
+I have used Django to set up the relational database. SQLite was used in the development phase and Heroku was used for live production using Postgres. These are the database models created for this project: 
 
 #### **Users:**
 
@@ -235,14 +235,25 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 #### **Orders:**
 
-| Key           | Value         |
-|---------------|---------------|
-| order number  | Charfield     |
-| date          | DateTimeField |
-| full name     | Charfield     |
-| order total   | DecimalField  |
-| delivery cost | DecimalField  |
-| grand total   | DecimalField  |
+| Key             | Value         | Default                                                                             |
+|-----------------|---------------|-------------------------------------------------------------------------------------|
+| user_profile    | ForeignKey    | UserProfile, on_delete=models.SET_NULL,null=True, blank=True,null=True, blank=True, |
+| country         | CountryField  | blank_label='Country *', null=False, blank=False                                    |
+| county          | CharField     | max_length=80, null=True, blank=True                                                |
+| date            | DateTimeField | auto_now_add=True                                                                   |
+| delivery cost   | DecimalField  | max_digits=6, decimal_places=2, null=False, default=0                               |
+| email           | EmailField    | max_length=254, null=False, blank=False                                             |
+| full name       | Charfield     | max_length=50, null=False, blank=False                                              |
+| grand total     | DecimalField  | max_digits=10, decimal_places=2, null=False, default=0                              |
+| order number    | CharField     | max_length=32, null=False, editable=False                                           |
+| order total     | DecimalField  | max_digits=10, decimal_places=2, null=False, default=0                              |
+| original_bag    | Textfield     | null=False, blank=False, default=''                                                 |
+| phone_number    | CharField     | max_length=20, null=False, blank=False                                              |
+| postcode        | CharField     | max_length=20, null=True, blank=True                                                |
+| street_address1 | CharField     | max_length=80, null=False, blank=False                                              |
+| street_address2 | CharField     | max_length=80, null=True, blank=True                                                |
+| stripe_pid      | CharField     | max_length=254, null=False, blank=False, default=''                                 |
+| town_or_city    | CharField     | max_length=40, null=False, blank=False                                              |
 
 
 
