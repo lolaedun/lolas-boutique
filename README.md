@@ -318,11 +318,29 @@ I have used Django to set up the relational database. SQLite was used in the dev
    ![settings-flake8](static/media/settings-flake8.png)
    ![products-flake8](static/media/products-flake8.png)
 
-SCREEN SIZES (Responsiveness)
-PLACING AN ORDER
-REGISTER
-SIGN IN
-PROFILE
+- SCREEN SIZES (Responsiveness)
+  - Screen sizes have been tested passing through the [(Responsinator) website](http://www.responsinator.com/?url=https%3A%2F%2Flolas-boutique.herokuapp.com%2F)
+
+
+- CHECKOUT/ORDER
+  - An order was placed as a registered user upon login, updating the quantities using the provided buttons and going to the secure checkout page.
+  - On the checkout page, delivery information and test card was entered: 4242 4242 4242 4242. 
+
+      - Use a valid future date, such as 12/34.
+      - Use any three-digit CVC (four digits for American Express cards).
+      - Use any value you like for other form fields.
+  - Order was completed successfully, redirecting user to the thank you page with a toast message acknowledging completion and email confirmation sent to user.
+  - Order added to users profile in the order history section.
+
+  ![Order page](static/media/order-page.png)
+  ![Payment page](static/media/checkout-payment.png)
+  ![Thanks page](static/media/checkout-thankyou.png)
+  ![Email confirmation](static/media/order-confirmation.png)
+
+
+- REGISTER
+- SIGN IN
+- PROFILE
 
 ## Bugs 
 
