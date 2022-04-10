@@ -274,14 +274,17 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 #### **Products:**
 
-| Key      | Value        |
-|----------|--------------|
-| sku      | Charfield    |
-| name     | Charfield    |
-| category | ForeignKey   |
-| price    | DecimalField |
-| rating   | DecimalField |
-| image    | ImageField   |
+| Key         | Value        | Default                                                      |
+|-------------|--------------|--------------------------------------------------------------|
+| category    | ForeignKey   | 'Category', null=True, blank=True, on_delete=models.SET_NULL |
+| description | TextField    |                                                              |
+| has_sizes   | BooleanField | default=False, null=True, blank=True                         |
+| image       | ImageField   | upload_to='products/', blank=True                            |
+| image_url   | URLField     | max_length=1024, null=True, blank=True                       |
+| name        | Charfield    | max_length=254                                               |
+| price       | DecimalField | max_digits=6, decimal_places=2                               |
+| rating      | DecimalField | max_digits=6, decimal_places=2, null=True, blank=True        |
+| sku         | Charfield    | max_length=254, null=True, blank=True                        |
 
 ![Database Schema](static/media/data-schema.png)
 
