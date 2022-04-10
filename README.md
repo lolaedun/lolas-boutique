@@ -432,9 +432,15 @@ This project can be ran locally by following the following steps: (
 I used Gitpod for development, so the following steps will be specific to Gitpod. 
 You will need to adjust them depending on your IDE. You can find more information about installing packages using pip and virtual environments [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
+### To fork my project: 
 
 
-### To clone the project: 
+  1. Sign in to Github and go to my [repository](https://github.com/lolaedun/lolas-boutique)
+  2. Locate the Fork button at the top right of the page.
+  3. Select this. 
+  4. The fork is now in your repositories.
+
+### To clone my project: 
 
 
   1. Sign in to Github and go to my [repository](https://github.com/lolaedun/lolas-boutique)
