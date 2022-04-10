@@ -451,7 +451,9 @@ You will need to adjust them depending on your IDE. You can find more informatio
 
   For more information on cloning check out the github documentation [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
+### Django and Heroku
 
+  To get the Django framework installed and set up I followed the Code institutes [Django Blog cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf).
     
 ### To deploy your project on Heroku, use the following steps: 
 
