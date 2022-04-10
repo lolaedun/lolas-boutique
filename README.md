@@ -345,7 +345,10 @@ I have used Django to set up the relational database. SQLite was used in the dev
 - PROFILE
   - Profile for both user and admin have been tested and work as expected. Screenshots have been provided in the features section above.
 
-  
+- KEYS
+  - I wasn't sure if keys had been accidentally pushed to github during switching of databases so to be sure I recycled the keys and generated new ones ensure security and integrity of the site has been maintained.
+
+
 ## Bugs 
 
 
