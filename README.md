@@ -250,9 +250,9 @@ I have used Django to set up the relational database. SQLite was used in the dev
 
 #### **Footer - About me:**
 
-| Key  | Value     |fdf
-|------|-----------|
-| bio  | TextField |
+| Key | Value     | Default                                                 |
+|-----|-----------|---------------------------------------------------------|
+| bio | Textfield | help_text='enter your bio or about us information here' |
 
 
 #### **Social Media:**
