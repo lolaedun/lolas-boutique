@@ -434,47 +434,18 @@ You will need to adjust them depending on your IDE. You can find more informatio
 
 
 
-To clone the project: 
+### To clone the project: 
 
-1. From the application's repository, click the "code" button and download the zip of the repository.
-1. Access the folder in your terminal window and install the application's [required modules](https://#) using the following command:
 
-    ```
-    pip3 install -r requirements.txt
+  1. Sign in to Github and go to my [repository](https://github.com/lolaedun/lolas-boutique)
+  2. Above the list of files click the green ‘code’ button.
+  3. This will bring up a few options as to how you would like to clone. You can select HTTPS, SSH or Github CLI, then click the clipboard icon to copy the URL.
+  4. Open git bash
+  5. Type ‘git clone’ and then paste the URL you copied. Press Enter.
 
-1. Sign-in or sign-up to [MongoDB](https://www.mongodb.com/) and create a new cluster
-    * Within the Sandbox, click the collections button and after click Create Database (Add My Own Data) called kindergarten_days
-    * Set up the following collections: users, activities, memory_album [Click here to see the exact Database Structure](#database-structure)
+  For more information on cloning check out the github documentation [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-    * Under the Security Menu on the left, select Database Access.
-    * Add a new database user, and keep the credentials secure
-    * Within the Network Access option, add IP Address 0.0.0.0
 
-1. In your IDE, create a file containing your environmental variables called env.py at the root level of the application. 
-    It will need to contain the following lines and variables:
-    ```
-    import os
-
-    os.environ["IP"] = "0.0.0.0"
-    os.environ["PORT"] = "5000"
-    os.environ["SECRET_KEY"] = "YOUR_SECRET_KEY"
-    os.environ["DEBUG"] = "True"
-    os.environ["MONGO_URI"] = "YOUR_MONGODB_URI"
-    os.environ["MONGO_DBNAME"]= "DATABASE_NAME" 
-    ```
-
-    Please note that you will need to update the **SECRET_KEY** with your own secret key, as well as the **MONGO_URI** and **MONGO_DBNAME** variables with those provided by MongoDB.
-    Tip for your SECRET_KEY, you can use a [Password Generator](https://passwordsgenerator.net/) in order to have a secure secret key. 
-    I personlly recommend a length of 24 characters and exclude Symbols.
-    To find your MONGO_URI, go to your clusters and click on connect. Choose connect your application and copy the link provided. 
-    Don't forget to update the necessary fields like password and database name. 
-
-    If you plan on pushing this application to a public repository, ensure that env.py is added to your .gitignore file.
-
-1. The application can now be run locally. In your terminal, type the following command 
-    ```
-    python3 app.py. 
-    ```
     
 ### To deploy your project on Heroku, use the following steps: 
 
